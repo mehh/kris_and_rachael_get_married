@@ -29,6 +29,9 @@ export default class locations extends React.Component {
                         Crescent Bay Point Park
                       </a>
                     </li>
+                    <li>
+                      <h4>Crescent Bay Dr<br /> Laguna Beach, CA 92651</h4>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -41,6 +44,9 @@ export default class locations extends React.Component {
                       <a href="https://g.page/harleylagunabeach?share" target="_blank" rel="noopener noreferrer">
                         Harley Laguna Beach
                       </a>
+                    </li>
+                    <li>
+                      <h4>370 Glenneyre St<br /> Laguna Beach, CA 92651</h4>
                     </li>
                   </ul>
                 </div>

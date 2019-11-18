@@ -57,6 +57,13 @@ nav {
   flex-direction: column;
 }
 
+@media only screen and (max-width: 968px) {
+  nav {
+    background-color: #f7f17e;
+    width: 100%;
+  }
+}
+
 nav #details {
   display: flex;
   font-family: "EB Garamond", serif;

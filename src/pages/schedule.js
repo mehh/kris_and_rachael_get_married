@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 
 import rings from "../images/wedding-rings.svg";
 import donut from "../images/donut.svg";
+import dining from "../images/restaurant.svg";
 
 export default props => (
   <Layout title="Schedule" location={props.location}>
@@ -27,13 +28,26 @@ export default props => (
         <h2>The Big Day</h2>
         <h4>Saturday Dec 21, 2019</h4>
         <h4>10:30am-11:00am</h4>
-        <h3>Crescent Bay Park</h3>
+        <h3>Crescent Bay Point Park</h3>
         <h4>Crescent Bay Dr, Laguna Beach, CA 92651</h4>
         <p>
-          10:30am seating for a lawn ceremony followed by  lorem ipsum
+          Please arrive early...lorem ipsum dolor sit amet
         </p>
       </div>
       <hr />
+      <div>
+        <img alt="Dining" src={dining} />
+        <h2>Brunch!</h2>
+        <h4>Saturday Dec 21, 2019</h4>
+        <h4>11:00pm-1:00pm</h4>
+        <h3>Harley</h3>
+        <h4>370 Glenneyre St, Laguna Beach, CA 92651</h4>
+        <h5>Casual</h5>
+        <p>
+          Join us at Harley for some brunch!
+        </p>
+      </div>
+      <hr />      
       <div>
         <img alt="Donuts" src={donut} />
         <h2>Coffee &amp; Donuts</h2>

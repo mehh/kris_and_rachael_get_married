@@ -33,7 +33,7 @@ export default ({ children, location, title }) => (
       <p>
         <i className="fas fa-heart" />
         Source on
-        <a href="https://github.com/martingaston/wedding_website">
+        <a href="https://github.com/mehh/kris_and_rachael_get_married">
           <i className="fab fa-github" />
         </a>
       </p>

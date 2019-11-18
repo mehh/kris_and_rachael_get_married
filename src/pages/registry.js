@@ -11,19 +11,12 @@ export default props => (
           also be deeply honoured to have you donate in our name to a
           progressive cause you believe strongly in.
         </p>
-        <p>
-          If you'd still prefer to help us collect a few items for our future
-          together, we are registered for the Zola items below. For those in the
-          UK, please do take a minute to check the rules with your bank account
-          before making a payment in $ as many accounts may incur a fee. Thank
-          you!
-        </p>
       </section>
       <div id="zola-iframe-container">
         <iframe
           id="zola-iframe"
           title="registry"
-          src="https://widget.zola.com/v1/widget/registry/jessiandmartin/html?maxItems=12&amp;partnerId=squarespace"
+          src="https://widget.zola.com/v1/widget/registry/krisandrachael/html?maxItems=12&amp;partnerId=squarespace"
           className="zola-registry-iframe"
           scrolling="no"
           style={{ height: "1200px", width: "100%", position: "relative" }}
