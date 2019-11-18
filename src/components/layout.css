@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:600");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400");
+
+body {
+  box-sizing: border-box;
+  background-image: url("../images/pineapple.jpg");
+  font-family: "EB Garamond", serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #1c1c1c;
+  letter-spacing: 0.09375rem;
+}
+
+a {
+  color: #1c1c1c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  border-bottom: 1px solid;
+  background: #bfe8e3;
+}
+
+#container {
+  max-width: 50rem;
+  margin: 6rem auto 3rem auto;
+  padding: 6rem;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin: 0 auto 0 auto;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  color: rgba(28, 28, 28, 0.7);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav #details {
+  display: flex;
+  font-family: "EB Garamond", serif;
+  font-style: italic;
+  justify-content: space-evenly;
+}
+
+nav #details a {
+  color: rgba(28, 28, 28, 0.7);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+nav #details i {
+  margin: 0 0.25rem;
+}
+
+nav ul {
+  margin: 0;
+  max-width: 100%;
+  list-style-type: none;
+  padding: 0rem 0rem 0.5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  padding: 0;
+  border-bottom: 2px solid transparent;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li:hover {
+  border-bottom: 2px solid rgb(238, 238, 238);
+  cursor: pointer;
+}
+
+nav li.active {
+  color: rgba(28, 28, 28, 1);
+  border-bottom: 2px solid rgba(28, 28, 28, 0.7);
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+nav li a:hover {
+  border-bottom: 1px solid;
+  background: inherit;
+}
+
+nav li a:hover,
+nav li a:focus {
+  border: 0;
+  background: inherit;
+}
+
+figure,
+picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.photo {
+  width: calc(100% - 1rem);
+}
+
+img.flag {
+  filter: grayscale(80%);
+  opacity: 0.85;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  margin: 1rem;
+  justify-content: center;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#FAQ section h3 {
+  text-align: center;
+}
+
+section p {
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+  text-align: justify;
+}
+
+#zola-iframe-container {
+  width: calc(100% - 1rem);
+  margin: auto;
+}
+
+article a {
+  display: inline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 3rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.65rem;
+  color: rgba(28, 28, 28, 0.4);
+  text-shadow: 2px 2px 4px rgb(238, 238, 238);
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+.fa-heart {
+  padding: 0.5rem;
+  color: hotpink;
+}
+
+.fa-camera-retro {
+  padding: 0.5rem;
+  color: #1c1c1c;
+}
+
+.fa-github {
+  padding: 0.5rem;
+  color: #4078c0;
+}
+
+hr {
+  width: 100%;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(28, 28, 28, 0),
+    rgba(28, 28, 28, 0.15),
+    rgba(28, 28, 28, 0)
+  );
+}
+
+.one-column {
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.one-column > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.two-grid div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 0.5rem;
+  text-align: justify;
+}
+
+.two-grid > div:nth-child(2) {
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(28, 28, 28, 0.02),
+      rgba(28, 28, 28, 0.15),
+      rgba(28, 28, 28, 0.02)
+    )
+    1 100%;
+}
+
+.reservations {
+  min-height: 20rem;
+}
+
+.one-column img,
+.two-grid img {
+  height: 3.5rem;
+  padding: 1rem;
+}
+
+.one-column h3,
+.two-grid h3 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.one-column h3 {
+  padding-top: 1rem;
+}
+
+.one-column h4,
+.two-grid h4 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.one-column h5 {
+  padding: 1rem 0 0 0;
+  margin: 0;
+  border: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.one-column p,
+.two-grid p {
+  text-align: center;
+}
+
+.two-grid ul {
+  margin: 1rem 0 0 0;
+  border: 0;
+  padding: 0;
+}
+
+.two-grid li {
+  list-style: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  #container {
+    max-width: 50rem;
+    margin: 1rem auto 1rem auto;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 238, 238);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    max-width: 50rem;
+    margin: 0.5rem auto 0 auto;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 238, 238);
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    margin: 0.5rem;
+  }
+  nav {
+    margin: 0px;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    padding: 0;
+    text-align: center;
+  }
+  nav li a {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  #zola-iframe-container {
+    height: 61rem;
+    overflow: hidden;
+  }
+  .two-grid {
+    flex-direction: column;
+  }
+  .two-grid > div:nth-child(2) {
+    border: 0px;
+  }
+  hr {
+    margin: 0.5rem 0.25rem 0.25rem 0.25rem;
+  }
+  .reservations {
+    min-height: 10rem;
+    margin-bottom: 1rem;
+  }
+  nav #details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+#rsvp {
+    display: flex;
+    flex-direction: column;
+    }
+
+#rsvp select {
+        width: 100%;
+}
+
+#rsvp div {
+        margin-top: 0.5rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+}
+
+#rsvp ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+
+#rsvp textarea, select, input {
+        padding: 0.25rem;
+}
+
+#rsvp textarea {
+        resize: none;
+}
+
+#bot-field {
+    display: none !important;
+}
