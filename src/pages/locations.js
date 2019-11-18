@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import Reveal from '../components/Reveal';
 
 import dining from "../images/restaurant.svg";
-import ship from "../images/cruise.svg";
+import island from "../images/island.svg";
 
 export default class locations extends React.Component {
   render() {
@@ -25,7 +25,7 @@ export default class locations extends React.Component {
               <Reveal>
               <div>
                 <div className="reservations">
-                  <img alt="" src={ship} />
+                  <img alt="" src={island} />
                   <h3>The Wedding</h3>
                   <ul>
                     <li>
