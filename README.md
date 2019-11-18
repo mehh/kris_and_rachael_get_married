@@ -18,3 +18,5 @@ More than happy to be on the recieving end of any tips regarding best practice o
 - :trophy: Icons designed by [eucalyp](https://creativemarket.com/eucalyp) and [Freepik](https://www.freepik.com/) from [Flaticon](www.flaticon.com)
 
 :bride_with_veil:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4154a205-3ca7-48b1-896a-de2d92d3db46/deploy-status)](https://app.netlify.com/sites/determined-hermann-0a7dbb/deploys)
