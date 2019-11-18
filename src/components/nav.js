@@ -39,7 +39,7 @@ export default class Nav extends React.Component {
             </a>
           </div>
           <div>
-            <a href="#">
+            <a href="/Kris_And_Rachael_get_Married.ics">
               <i className="fas fa-globe-americas" />
               Laguna Beach, CA
             </a>

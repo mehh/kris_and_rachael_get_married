@@ -1,6 +1,7 @@
 import React from "react";
 import LagunaBeachMap from "../components/lagunaBeachMap";
 import Layout from "../components/layout";
+import Reveal from '../components/Reveal';
 
 import dining from "../images/restaurant.svg";
 import ship from "../images/cruise.svg";
@@ -10,15 +11,18 @@ export default class locations extends React.Component {
     return (
       <Layout title="Locations" location={this.props.location}>
         <article id="map">
-          <figure>
-            <LagunaBeachMap />
-          </figure>
+          <Reveal>
+            <figure>
+              <LagunaBeachMap />
+            </figure>
+          </Reveal>
           <section>
             <p>
               Both locations for our special day are close to one another in Laguna Beach... lorem ipsum dolor sit amet.
             </p>
             <h2>The Locations</h2>
             <div className="two-grid">
+              <Reveal>
               <div>
                 <div className="reservations">
                   <img alt="" src={ship} />
@@ -35,6 +39,8 @@ export default class locations extends React.Component {
                   </ul>
                 </div>
               </div>
+              </Reveal>
+              <Reveal>
               <div>
                 <div className="reservations">
                   <img alt="" src={dining} />
@@ -51,6 +57,7 @@ export default class locations extends React.Component {
                   </ul>
                 </div>
               </div>
+              </Reveal>
             </div>
           </section>
         </article>

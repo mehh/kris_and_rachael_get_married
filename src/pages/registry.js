@@ -19,7 +19,7 @@ export default props => (
           src="https://widget.zola.com/v1/widget/registry/krisandrachael/html?maxItems=12&amp;partnerId=squarespace"
           className="zola-registry-iframe"
           scrolling="no"
-          style={{ height: "1200px", width: "100%", position: "relative" }}
+          style={{ height: "340px", width: "100%", position: "relative" }}
           width="100%"
           frameBorder="0"
         />

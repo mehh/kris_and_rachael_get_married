@@ -128,6 +128,12 @@ nav li a:focus {
   background: inherit;
 }
 
+.schedule img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 figure,
 picture {
   display: flex;
