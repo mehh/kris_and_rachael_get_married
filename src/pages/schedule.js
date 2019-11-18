@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import Reveal from '../components/Reveal';
 
-import rings from "../images/wedding-rings_new.svg";
+import rings from "../images/wedding-rings_mf.svg";
 import donut from "../images/donut.svg";
 import dining from "../images/restaurant.svg";
 
