@@ -28,7 +28,8 @@ module.exports = {
         respectDNT: false,
         // Delays sending pageview hits on route update (in milliseconds)
         pageTransitionDelay: 0,
-      },
+      }
+    },
     "gatsby-plugin-offline"
   ]
 };
