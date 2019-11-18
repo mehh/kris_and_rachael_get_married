@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 Martin Gaston
+Copyright (c) 2019 Kris Chase
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the Software), to deal

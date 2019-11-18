@@ -10,8 +10,8 @@ module.exports = {
         name: "Kris & Rachael Get Married",
         short_name: "Kris & Rachael",
         start_url: "/",
-        background_color: "#bfe8e3",
-        theme_color: "#bfe8e3",
+        background_color: "#f7f17e",
+        theme_color: "#f7f17e",
         display: "standalone",
         icon: "src/images/favicon.png" // This path is relative to the root of the site.
       }
@@ -19,12 +19,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-125840021-1",
+        trackingId: "UA-26065780-32,
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
-        anonymize: true,
-        respectDNT: true
-      }
-    },
+        // Setting this parameter is optional
+        anonymize: false,
+        // Setting this parameter is also optional
+        respectDNT: false,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+      },
     "gatsby-plugin-offline"
   ]
 };
