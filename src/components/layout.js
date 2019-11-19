@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import "./layout.css";
 import Nav from "../components/nav";
 import Header from "../components/header";
+import OverlayTransition from "../components/OverlayTransition";
 
 export default ({ children, location, title }) => (
   <div>
@@ -38,5 +39,6 @@ export default ({ children, location, title }) => (
         </a>
       </p>
     </footer>
+    <OverlayTransition />
   </div>
 );

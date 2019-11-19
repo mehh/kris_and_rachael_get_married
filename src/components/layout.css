@@ -4,12 +4,12 @@
 
 body {
   box-sizing: border-box;
-  background-image: url("../images/pineapple.jpg");
-  background-repeat: repeat;
+  /* background-image: url("../images/pineapple.jpg");
+  background-repeat: repeat; */
 
-  /* background-image: url("../images/bg/3.jpeg");
+  background-image: url("../images/bg/7.jpeg");
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 
   font-family: "EB Garamond", serif;
   font-style: normal;
@@ -34,6 +34,31 @@ a:focus {
   border-bottom: 1px solid;
   background: #bfe8e3;
 }
+
+.component-overlay-transition {
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden
+}
+
+.component-overlay-transition__background {
+  position: absolute;
+  top: 0;
+  left: -5vw;
+  width: 105vw;
+  height: 100vh;
+  background-color: #161b1e;
+  transform: translateX(-100%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: block;
+  transform-style: preserve-3d
+}
+
 
 #container {
   max-width: 50rem;
@@ -188,6 +213,7 @@ h2 {
 }
 
 section p {
+  font-size: 18px;
   margin: 1rem 0;
   padding: 0 0.5rem;
   text-align: justify;

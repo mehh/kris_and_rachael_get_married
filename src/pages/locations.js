@@ -18,7 +18,7 @@ export default class locations extends React.Component {
           </Reveal>
           <section>
             <p>
-              Both locations for our special day are close to one another in Laguna Beach... lorem ipsum dolor sit amet.
+              Both located in beautiful Laguna Beach, Crescent Bay Point Park and Harley are only a 5-10 minute drive apart! Click the destination names below to open in Google Maps. 
             </p>
             <h2>The Locations</h2>
             <div className="two-grid">
@@ -35,6 +35,11 @@ export default class locations extends React.Component {
                     </li>
                     <li>
                       <h4>Crescent Bay Dr<br /> Laguna Beach, CA 92651</h4>
+                    </li>
+                    <li>
+                      <p>
+                      To find the park, turn onto Crescent Bay Dr. on the <strong><i>ocean side</i></strong> of Pacific Coast Hwy. Crescent Bay Dr. is a large loop, and the park is located at the point where it begins to loop back, overlooking the ocean. 
+                      </p>
                     </li>
                   </ul>
                 </div>

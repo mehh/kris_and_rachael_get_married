@@ -6,10 +6,10 @@ export default props => (
     <article id="zola">
       <section>
         <p>
-          Make no mistake: your presence is the perfect present and we are not
-          expecting any gifts. In lieu of a traditional contribution, we would
-          also be deeply honoured to have you donate in our name to a
-          progressive cause you believe strongly in.
+          We’re very fortunate to have everything we need for this next chapter together! Instead of a gift, we’re asking that those so inclined make a donation to one of the causes below. 
+        </p>
+        <p>
+          We’ll be able to select the specific charities within any cause for which we receive donations. 
         </p>
       </section>
       <div id="zola-iframe-container">

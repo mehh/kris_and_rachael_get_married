@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layout";
 import jam from "../images/intro.jpg";
 import jammob from "../images/intro-mobile.jpg";
 import Reveal from '../components/Reveal';
+import { Link } from "gatsby";
+// import { setBodyClasses } from '../functions/index';
+
+
 
 export default props => (
   <Layout title="Kris &amp; Rachael" location={props.location}>
@@ -15,15 +19,29 @@ export default props => (
     </Reveal>
     <Reveal>
       <article id="story">
-        <section>
+      <section>
           <hr />
-          <h2>Lorem Ipsum Dolor Sit Amet... ❤️</h2>
+          <h2>Thank you for joining us! <span role="img" aria-label="heart">❤️</span></h2>
           <hr />
           <p>
-          Bacon ipsum dolor amet landjaeger shankle pastrami doner picanha, ham short loin chuck sirloin jowl t-bone ball tip pork chop. Ribeye t-bone meatloaf bacon pig tail. Pork loin sausage pork chop, drumstick bresaola chuck spare ribs jowl short ribs pork belly rump. Kielbasa shankle shank chicken, sausage frankfurter ham hock. Picanha pancetta pork chop pastrami tri-tip chuck bresaola beef ribs salami. Pork chop short ribs turducken, chuck hamburger salami ham pig cow shankle shoulder. Swine corned beef t-bone ribeye.
+            From office rivals, to the best of friends, and now husband & wife. We’re so excited for this next chapter! 
           </p>
+          <p>
+            We can’t imagine a life without one another nor a better group of family and friends to surround ourselves with on the big day! 
+          </p>
+          <p>“I love you more,” he said.</p>
+        </section>
 
-
+        <section>
+          <hr />
+          <h2>Details</h2>
+          <hr />
+          <p>
+          The morning will start with a ceremony at the coast in Laguna Beach, at Crescent Bay Point Park. The ceremony will begin at 9:45, so please plan to arrive at or before 9:30 to find parking and meet at the park. For more details on Crescent Bay Point Park, such as the address and where to park view the <Link to="/locations">Locations page</Link>. 
+          </p>
+          <p>
+          Following the ceremony, we will celebrate with a brunch in Downtown Laguna Beach at Harley Laguna Beach. Harley is approximately 5-10 minutes South of Crescent Bay Point Park. Brunch will casually begin at 11:15. Feel free to enter the restaurant and grab a beverage upon arrival. Harley's address is listed on the Locations page. 
+          </p>
           <p>“I love you more,” he said.</p>
         </section>
       </article>
