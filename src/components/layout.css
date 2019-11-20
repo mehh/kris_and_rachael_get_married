@@ -88,10 +88,18 @@ nav {
   flex-direction: column;
 }
 
+nav li:last-child {
+  display: none;
+}
+
 @media only screen and (max-width: 968px) {
   nav {
     background-color: #f7f17e;
     width: 100%;
+  }
+
+  nav li:last-child {
+    display: block;
   }
 }
 
