@@ -36,10 +36,13 @@ export default props => (
           <h2>Details</h2>
           <hr />
           <p>
-          The morning will start with a ceremony at the coast in Laguna Beach, at Crescent Bay Point Park. The ceremony will begin at 10:00, so please plan to arrive at or before 9:45 to find parking and meet at the park. For more details on Crescent Bay Point Park, such as the address and where to park view the <Link to="/locations">Locations page</Link>. 
+          The festivities will begin with a ceremony at the coast in Laguna Beach, at Crescent Bay Point Park. The ceremony will begin at 10:00, so please plan to arrive at or before 9:45 to find parking and meet at the park. <strong>And remember, it will be cold! </strong>
           </p>
           <p>
-          Following the ceremony, we will celebrate with a brunch in Downtown Laguna Beach at Harley Laguna Beach. Harley is approximately 5-10 minutes South of Crescent Bay Point Park. Brunch will casually begin at 11:15. Feel free to enter the restaurant and grab a beverage upon arrival. Harley's address is listed on the Locations page. 
+          Following the ceremony, we will celebrate with a brunch in Downtown Laguna Beach at Harley Laguna Beach. Harley is approximately 5-10 minutes South of Crescent Bay Point Park. Brunch will casually begin at 11:15. Feel free to enter the restaurant upon arrival, as they’ll be open just for us! 
+          </p>
+          <p>
+          For more details on Crescent Bay Point Park and Harley Laguna Beach, such as addresses and where to park view the Locations page. 
           </p>
         </section>
       </article>
