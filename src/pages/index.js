@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "../components/layout";
 import jam from "../images/intro.jpg";
 import jammob from "../images/intro-mobile.jpg";
 import Reveal from '../components/Reveal';
-import { Link } from "gatsby";
 // import { setBodyClasses } from '../functions/index';
 
 
