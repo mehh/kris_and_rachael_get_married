@@ -34,7 +34,7 @@ export default props => (
           <h3>Harley</h3>
           <h4>370 Glenneyre St, Laguna Beach, CA 92651</h4>
           <p>
-            Join us at Harley in downtown Laguna Beach to celebrate over brunch!
+            Join us at Harley Laguna Beach to celebrate over brunch! It’s just a 5-10 minute drive South. 
           </p>
         </div>
         <hr />      

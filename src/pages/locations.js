@@ -39,10 +39,13 @@ export default class locations extends React.Component {
                     <li>
                       <hr />
                       <p>
-                      To find the park, turn onto Crescent Bay Dr. on the <strong><i>ocean side</i></strong> of Pacific Coast Hwy. 
+                        To find the park, turn onto Crescent Bay Dr. on the <strong><i>ocean side</i></strong> of Pacific Coast Hwy. 
                       </p>
                       <p>
-                        Crescent Bay Dr. is a large loop, and the park is located at the point where it begins to loop back, overlooking the ocean. 
+                        Crescent Bay Dr. is a large loop, and the park is located at the point where it begins to loop back–overlooking the ocean. 
+                      </p>
+                      <p>
+                        You can park anywhere on the street near the park. 
                       </p>
                     </li>
                   </ul>
@@ -69,7 +72,7 @@ export default class locations extends React.Component {
                         Harley is located at the corner of Glenneyre St & Mermaid St. 
                       </p>
                       <p>
-                        After the ceremony, turn right onto Pacific Coast Highway to head north towards Laguna’s downtown area. Turn left onto Forest Ave. off of PCH, then right onto Glenneyre St. 
+                        After the ceremony, turn right onto Pacific Coast Highway to head south towards Laguna’s downtown area. Turn left onto Park Ave, then another left onto Eiler Larsen Ln., then right onto Glenneyre St.
                       </p>
                     </li>
                   </ul>
