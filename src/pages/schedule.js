@@ -21,7 +21,7 @@ export default props => (
           <h3>Crescent Bay Point Park</h3>
           <h4>Crescent Bay Dr, Laguna Beach, CA 92651</h4>
           <p>
-            Please plan to arrive at or before 9:30 to find parking and meet at the park.
+            Please plan to arrive at or before 9:45 to find parking and meet at the park. You can park anywhere on the street near the park. 
           </p>
         </div>
         <hr />
