@@ -51,7 +51,7 @@ export default class Nav extends React.Component {
           <List path={this.props.path} link={"/locations"} text={"Locations"} />
           <List path={this.props.path} link={"/registry"} text={"Registry"} />
           <List path={this.props.path} link={"/faq"} text={"FAQ"} />
-          <li><a href="/Kris_And_Rachael_get_Married.ics">Add To Calendar</a></li>
+          <li><a href="/Kris_And_Rachael_get_Married.ics" onclick="ga('send', 'event', 'Add To Calendar', 'True', 'Added', '1');">Add To Calendar</a></li>
         </ul>
       </nav>
     );
