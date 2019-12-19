@@ -49,9 +49,7 @@ export default props => (
           <hr />
           <h2>Announcement Video</h2>
           <hr />
-          <iframe id="ytplayer" type="text/html" style="max-width:100%;" height="405"
-            src="https://www.youtube.com/embed/5FL9NWmKtO8"
-            frameborder="0" allowfullscreen></iframe>
+          <div class='embed-container'><iframe src='https://www.youtube.com/embed/5FL9NWmKtO8' frameborder='0' allowfullscreen></iframe></div>
         </section>
       </article>
     </Reveal>
