@@ -45,11 +45,11 @@ export default props => (
           </p>
         </section>
 
-        <section>
+        <section style="">
           <hr />
           <h2>Announcement Video</h2>
           <hr />
-          <iframe id="ytplayer" type="text/html" width="720" height="405"
+          <iframe id="ytplayer" type="text/html" style="max-width:100%;" height="405"
             src="https://www.youtube.com/embed/5FL9NWmKtO8"
             frameborder="0" allowfullscreen></iframe>
         </section>
