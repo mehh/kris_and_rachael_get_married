@@ -49,7 +49,7 @@ export default props => (
           <hr />
           <h2>Announcement Video</h2>
           <hr />
-          <div class='embed-container'><iframe src='https://www.youtube.com/embed/5FL9NWmKtO8' frameborder='0' allowfullscreen></iframe></div>
+          <div class="embed-container"><iframe src="https://www.youtube.com/embed/5FL9NWmKtO8" frameborder="0" allowfullscreen></iframe></div>
         </section>
       </article>
     </Reveal>
