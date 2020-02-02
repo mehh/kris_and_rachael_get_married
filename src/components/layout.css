@@ -517,3 +517,7 @@ section {
   border: none;
   background: transparent;
 }
+
+#Gallery .two-grid>div:nth-child(2) {
+  border: none;
+}
