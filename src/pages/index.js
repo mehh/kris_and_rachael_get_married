@@ -30,7 +30,7 @@ export default props => (
           </p>
         </section>
 
-        <section>
+        {/* <section>
           <hr />
           <h2>Details</h2>
           <hr />
@@ -43,14 +43,14 @@ export default props => (
           <p>
             For more details on Crescent Bay Point Park and Harley Laguna Beach, such as addresses and where to park view the <a href="/locations">Locations page</a>. 
           </p>
-        </section>
+        </section> */}
 
         <section>
           <hr />
-          <h2>Announcement Video</h2>
+          <h2>Wedding Ceremony Video</h2>
           <hr />
           <div class="embed-container">
-            <iframe src="https://www.youtube.com/embed/5FL9NWmKtO8" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/PrP-ClOF5Y8" title="Wedding Ceremony Video" frameborder="0" allowfullscreen></iframe>
           </div>
         </section>
       </article>

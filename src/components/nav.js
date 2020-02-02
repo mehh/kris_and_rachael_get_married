@@ -56,11 +56,12 @@ export default class Nav extends React.Component {
         </div>
         <ul>
           <List path={this.props.path} link={"/"} text={"Home"} />
+          <List path={this.props.path} link={"/gallery"} text={"Gallery"} />
           <List path={this.props.path} link={"/schedule"} text={"Schedule"} />
           <List path={this.props.path} link={"/locations"} text={"Locations"} />
           <List path={this.props.path} link={"/registry"} text={"Registry"} />
           <List path={this.props.path} link={"/faq"} text={"FAQ"} />
-          <li><a href="/Kris_And_Rachael_get_Married.ics" onClick={this.logger} ><i className="far fa-calendar-alt" /> Add To Calendar</a></li>
+          {/* <li><a href="/Kris_And_Rachael_get_Married.ics" onClick={this.logger} ><i className="far fa-calendar-alt" /> Add To Calendar</a></li> */}
         </ul>
       </nav>
     );

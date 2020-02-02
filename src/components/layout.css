@@ -507,3 +507,13 @@ section {
 #bot-field {
     display: none !important;
 }
+
+#Gallery .two-grid img {
+  height: auto;
+}
+
+#Gallery .two-grid a:hover,
+#Gallery .two-grid a:focus {
+  border: none;
+  background: transparent;
+}
